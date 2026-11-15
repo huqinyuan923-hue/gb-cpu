@@ -1,0 +1,14 @@
+{
+  "name": "gb-cpu",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.9"
+  }
+}
